@@ -91,7 +91,7 @@ function isEmpty(value){
 }
 
 function forwardToId(params) {
-  const base = window.location.origin + "/yObywatel.github.io";
+  const base = window.location.origin + "/bObywatel.github.io";
   location.href = base + "/id.html?" + params.toString();
 }
 
